@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #115C7C;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo{
+    width: 353px ;
+    height: 70px;
+}
+
+.tags{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    margin: 10px;
+    gap: 120px;
+}
+
+.empresa{
+    display: flex;
+    align-items: center;
+}

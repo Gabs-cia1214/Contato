@@ -26,4 +26,55 @@ header{
 .empresa{
     display: flex;
     align-items: center;
+    width: 1717p;
+    height: 23;
+}
+
+main{
+    background-color: #374151;
+}
+
+.img{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding-left: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 100%;
+    object-fit: contain;
+    height: auto;
+    
+}
+
+.Casa{
+    display: flex;
+    justify-content: flex-end;
+    align-items: ;
+
+    box-sizing: border-box;
+    background-color: aqua;
+
+}
+
+.fala{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    padding-left: 20px;
+    padding: 30px;
+    width: 30%;
+    height: auto;
+}
+
+.Enviar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding-left: 100px;
 }

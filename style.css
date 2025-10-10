@@ -3,11 +3,16 @@
     padding: 0;
 }
 
+
+body{
+    box-sizing: border-box;
+    background-color: #374151;
+}
+
 header{
     background-color: #115C7C;
     display: flex;
     justify-content: space-between;
-
 }
 
 .logo{
@@ -30,33 +35,11 @@ header{
     height: 23;
 }
 
-main{
-    background-color: #374151;
-}
-
 .img{
     display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-    padding-left: 20px;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
-    max-width: 100%;
-    object-fit: contain;
-    height: auto;
-    
-}
-
-.Casa{
-    display: flex;
-    justify-content: flex-end;
-    align-items: ;
-
-    box-sizing: border-box;
-    background-color: aqua;
-
 }
 
 .fala{
@@ -77,4 +60,14 @@ main{
     align-items: center;
     gap: 20px;
     padding-left: 100px;
+}
+
+.Casa{
+    padding: 0% 12% 0% 0%;
+}
+
+.main-div-div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
